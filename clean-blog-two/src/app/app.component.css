@@ -1,0 +1,26 @@
+nav {
+  display: flex;
+  color: black;
+  align-items: center;
+}
+
+nav h1 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+nav ul{
+  display: flex;
+}
+
+nav ul li {
+  margin: auto;
+  justify-content: space-around;
+}
+
+nav ul li a {
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 600;
+  color: black;
+}
