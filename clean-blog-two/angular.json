@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "clean-blog-two"
+    }
+  },
+  "defaultProject": "clean-blog-two",
+  "cli": {
+    "analytics": false
+  }
 }
