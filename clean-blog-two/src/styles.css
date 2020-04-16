@@ -4,45 +4,6 @@ body, html {
     margin: 0px;
 }
 
-h1, h2 {
-    margin: 10px 0;
-}
-
-#toggle {
-    display: none;
-}
-
-.togglearea {
-    grid-column-start: 4;
-    grid-row-start: 1;
-    background-color: white;
-    justify-content: space-between;
-    align-content: center;
-}
-
-.togglearea {
-    display: none;
-}
-
-.togglearea h3 {
-    color: black;
-}
-
-.togglearea h3 {
-    margin-top: 0;
-    margin-bottom: 0;
-    color: black;
-}
-
-.togglearea label span {
-    text-align: center;
-    display: inline-block;
-    background-color: black;
-    height: 3px;
-    width: 90%;
-    margin: 0;
-}
-
 .post-container {
     grid-area: 3 / 2 / 3 / 4;
     display: grid;
@@ -65,22 +26,6 @@ h1, h2 {
     grid-template-rows: 10% 50% 40%;
 }
 
-.logo {
-    justify-self: end;
-    align-self: center;
-    grid-row-start: 1;
-    grid-column-start: 1;
-    color: white;
-}
-
-.nav {
-    grid-column-start: 3;
-    grid-column-end: 5;
-    align-self: center;
-    justify-self: end;
-    grid-row-start: 1;
-    padding-right: 50px;
-}
 
 .center-content {
     grid-column-start: 2;
