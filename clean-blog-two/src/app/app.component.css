@@ -16,8 +16,7 @@ nav ul{
 }
 
 nav ul li {
-  margin: auto;
-  justify-content: space-around;
+  padding: 0 1rem;
 }
 
 nav ul li a {
